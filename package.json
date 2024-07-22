@@ -1,9 +1,9 @@
 {
-  "name": "react-components-library",
+  "name": "emma-react-library",
   "type": "module",
-  "version": "0.0.0",
-  "description": "react-components-library",
-  "author": "winches",
+  "version": "0.0.1",
+  "description": "emma-react-library",
+  "author": "Emma.lou",
   "license": "MIT",
   "keywords": [],
   "sideEffects": false,
@@ -32,10 +32,10 @@
     "prepare": "simple-git-hooks",
     "prepublishOnly": "npm run build",
     "dev": "tsup --watch",
-    "dev:play": "pnpm --filter playground dev",
-    "dev:docs": "pnpm --filter docs dev",
+    "dev:play": "npm --filter playground dev",
+    "dev:docs": "npm --filter docs dev",
     "build": "tsup",
-    "build:docs": "pnpm --filter docs build",
+    "build:docs": "npm --filter docs build",
     "lint": "eslint --fix .",
     "changelog": "npx conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
     "release": "bumpp --execute=\"nr changelog\" --all && npm publish"
@@ -83,6 +83,5 @@
     "*.{js,ts,tsx}": [
       "eslint --fix"
     ]
-  },
-  "packageManager": "pnpm@8.15.5"
+  }
 }

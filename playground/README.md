@@ -4,7 +4,7 @@
 
 ### 一、使用
 
-在 `playground` 目录下直接运行 `pnpm dev`，会将 `app.example.tsx` 生成到 `src` 目录下
+在 `playground` 目录下直接运行 `npm dev`，会将 `app.example.tsx` 生成到 `src` 目录下
 
 随后可以直接在 `src/App.tsx` 中修改你想要调试的组件代码
 

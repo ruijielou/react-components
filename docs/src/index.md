@@ -2,8 +2,8 @@
 pageType: home
 
 hero:
-  name: react-components-docs
-  text: react-components
+  name: emma-react-library-docs
+  text: emma-react-library
   tagline: A modern documentation site generator for Rust
   actions:
     - theme: brand
@@ -14,7 +14,7 @@ hero:
       link: https://github.com/wincheshe
   image:
     src: /rspress-icon.png
-    alt: react-components-docs Logo
+    alt: emma-react-library-docs Logo
 features:
   - title: Blazing fast build speed
     details: The core compilation module is based on the Rust front-end toolchain, providing a more ultimate development experience.

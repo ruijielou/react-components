@@ -6,7 +6,7 @@ import { launchEditorMiddleware } from './plugins/launch-editor'
 
 export default defineConfig({
   root: path.join(__dirname, 'src'),
-  title: 'react-components-docs',
+  title: 'emma-react-docs',
   description: 'Rspack-based Static Site Generator',
   icon: '/rspress-icon.png',
   logo: {
@@ -17,7 +17,7 @@ export default defineConfig({
     mdxRs: false,
   },
   themeConfig: {
-    socialLinks: [{ icon: 'github', mode: 'link', content: 'https://github.com/winchesHe/react-components-library' }],
+    socialLinks: [{ icon: 'github', mode: 'link', content: 'https://github.com/ruijielou/react-components' }],
   },
   plugins: [pluginPreview(), pluginGenerateProps()],
   globalStyles: path.join(__dirname, 'styles/index.css'),
